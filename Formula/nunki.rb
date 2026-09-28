@@ -1,28 +1,28 @@
 class Nunki < Formula
   desc "Architecture docs from source code, verified against the commit"
   homepage "https://github.com/sadaramk/nunki"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sadaramk/nunki/releases/download/v0.5.0/nunki-0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4a375a0eb3e45ce4f366047388aeded72c5c11312822d52faa9588a8746049df"
+      url "https://github.com/sadaramk/nunki/releases/download/v0.6.0/nunki-0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2ca532cf6f238ff9429194301682ef9dcd4cfb9ca37bfd821a3ddddc8498365a"
     end
     on_intel do
-      url "https://github.com/sadaramk/nunki/releases/download/v0.5.0/nunki-0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "70ad6f2349ff5ffa3f38e2b4c6cbc30b65ab789df27b02fd90bf9552b3f1f0d3"
+      url "https://github.com/sadaramk/nunki/releases/download/v0.6.0/nunki-0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7c78ccf2af74a4bab5de5dd93818d2572e02ccbf86301578feeb0d31651e3a5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sadaramk/nunki/releases/download/v0.5.0/nunki-0.5.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b7de04e91895ea987a29f6b9826779c1daaca82d2fb0f29bafd937ce6d81bde5"
+      url "https://github.com/sadaramk/nunki/releases/download/v0.6.0/nunki-0.6.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "92d45e90aaa12286bd0983783e8f475da77264f39861dd6db870e357e0138d1f"
     end
     on_intel do
-      url "https://github.com/sadaramk/nunki/releases/download/v0.5.0/nunki-0.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c46af29bae036d7147336006dcdd35d1afcc26b8c247278a3f0d8ccea3abc28c"
+      url "https://github.com/sadaramk/nunki/releases/download/v0.6.0/nunki-0.6.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e53459a9cd389fcf44b444ba44473bbfa12c147522468f958ccb33d2a238d293"
     end
   end
 
